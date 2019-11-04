@@ -5,7 +5,11 @@
 % - pratical solution
 %from pep 1, paragrafo 7 e pep abstract, paragrafo1
 File fragment classification is a task that aims to determine the original type of a file when only a small piece of it is available.
-This work compares the accuracy of some types of neural networks to classify file fragments using their file extensions as class labels. Fourteen models were compared applying a combination of convolutional, Long Short-Term Memory (LSTM) and fully-connected layers. Among the tested models, 3 of them have stood out. The models required short training times and few examples to approach their limit. This suggests that some patterns were easy to find but they were insufficient to achieve higher accuracy, pointing that future work on the area should focus on error analysis before investing in a trial and error approach of tweaking of parameters and layer modifications. This work is also one of the few in the data carving field that provides an easy way to reproduce the results using neural networks. Thus the models presented here can be used as a basis of comparison in future researches.  
+This work compares the accuracy of some types of neural networks, classifying file fragments taken from the Govdocs1 dataset\cite{garfinkel_bringing_2009}, using their file extensions as class labels. The 14 models compared apply a combination of convolutional, Long Short-Term Memory (LSTM) and fully-connected layers. 
+Among the models tested, 3 of them have stood out.
+The models required short training times and few examples to approach their limit. 
+This suggests that some patterns were easy to find but they were insufficient to achieve higher accuracy,
+pointing that future works on the area should focus on error analysis before investing in a trial and error approach of tweaking of parameters and layer modifications. This work is also one of the few in the data carving field that provides an easy way to reproduce the results using neural networks. Thus the models presented here can be used as a basis of comparison in future researches.  
 
 
 % This work explores the use of neural networks to perform data carving, comparing some artificial neural network architectures. The considered networks were trained without special hardware in short periods of time using limited datasets. It is expected that neural networks can be used to automate the construction of data carving solutions, allowing forensic examiners to collaboratively build models for several file types.
